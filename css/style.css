@@ -1,0 +1,208 @@
+*{
+    text-decoration: none;
+    color:#ffffff;
+    box-sizing: border-box;
+    
+}
+@font-face {
+    font-family: Abel-Pro ;
+    src: url('../fonts/Abel-Pro.otf');
+}
+@font-face {
+    font-family:Abel-Pro-Bold ;
+    src: url('../fonts/Abel-Pro-Bold.otf');
+}
+  @font-face {
+    font-family:Turista-Gorda-NF-W01-Regular ;
+    src: url('../fonts/Turista\ Gorda\ NF\ W01\ Regular.ttf');
+  }
+@font-face {
+    font-family:Bitter-VariableFont;
+    src: url('../fonts/Bitter-VariableFont_wght.ttf');
+}
+header, footer, section {
+    display: block;
+}
+.conteiner {
+    width: 100%;
+    padding: 0 30px;
+}
+
+.body {
+margin: 0;
+background: black;
+}
+/* HEADER-Beginning */
+.header {
+    display: block;
+    background-color: rgb(64, 65, 66);
+    position: fixed;
+    width: 100%;
+
+}
+
+.header .menu ul { 
+    padding: 20px 0;
+    margin: 0%;
+}
+.header .menu ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.header .menu ul li a {
+    color:rgb(251, 67, 67);
+    font-family:Turista-Gorda-NF-W01-Regular ;
+
+}
+
+.header .menu ul li a:hover {
+    color: #ffffff;
+}
+/* HEADER-END */
+
+/* PROMO-Beginning */
+
+.promo .container {
+    display: flex;
+    padding: 40px 0 ;
+}
+.promo .left-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 15px;
+}
+.promo .left-block h1 {
+    margin-top: 100px;
+    font-size: 40px;
+    color:#ffffff;
+    font-family:Bitter-VariableFont;
+    
+}
+h1 {
+    animation-name: FadeInDown;
+    animation-duration: 2s;
+}
+.promo .left-block p {
+    padding: 10px;
+    font-size: 28px;
+    line-height: 30px;
+    color: #ffffff;
+    font-family: Abel-Pro ;
+}
+
+.container .circle {
+    margin-top: 245px;
+ }
+.promo .left-block a {
+    text-transform: uppercase;
+    display: block;
+    padding: 25px;
+    background-color: #ffffff;
+    color:rgb(104, 104, 104);
+    width: 197px;
+    height: 110px;
+    font-weight: bold;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 100%;
+    font-family:Turista-Gorda-NF-W01-Regular ;
+    
+}
+.promo .left-block a:hover {
+    background-color: antiquewhite;
+    color:#ffffff;
+    border: 1px solid rosybrown;
+}
+
+/* PROMO-End */
+ 
+/* ABOUT-beginning */
+.about {
+background-color: rgb(64, 65, 66);
+padding-bottom: 35px;
+}
+.about h2 {
+    font-size: 30px;
+    text-align: center;
+    font-family:Bitter-VariableFont;
+     
+}
+.about .ul {
+    padding: 0 20%;
+}
+.about .container {
+    text-align: center;
+    line-height: 40px;
+    padding-top: 20px;
+    font-size: 25px;
+    padding: 10px;
+    font-family: Abel-Pro ;
+    
+}
+/* ABOUT-end */
+
+/* CARDS-Beginning */
+.cards h2 {
+    margin: 50px;
+    padding: 0 14px;
+    font-size: 30px;
+    font-family:Bitter-VariableFont;  
+}
+.cards .container {
+    display: flex;
+    justify-content: space-around;
+}
+.cards a.link {
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    padding: 15px 0;
+    font-family: Abel-Pro ;
+    
+}
+.cards a:hover {
+    color:rosybrown;
+    font-weight: bold;
+    font-family: Abel-Pro-Bold;
+}
+/* CARDS-Ending */
+
+/* VIDEO-Beginning */
+.video .container {
+text-align: center;
+padding-bottom: 20px;
+}
+h2 {
+    margin-bottom: 45px;
+    font-size: 30px;
+    font-family:Bitter-VariableFont;
+    
+}
+/* VIDEO-End */
+
+/* FOOTER-Begining */
+footer  {
+    background-color:rgb(64, 65, 66) ;
+    font-family:Bitter-VariableFont;
+    height: 40px;
+}
+.p1 {
+    padding: 10px;
+    margin-left: 10px;
+}
+
+/* FOOTER-End */
+
+.desktop-menu {
+        display: block;
+    }
+    .mobile-menu {
+        display: none;
+    }
+  
+    
